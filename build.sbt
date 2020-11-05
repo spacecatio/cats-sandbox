@@ -1,7 +1,7 @@
 name := "cats-code"
 version := "0.0.1-SNAPSHOT"
 
-scalaVersion := "2.13.3"
+scalaVersion := "2.13.5"
 
 scalacOptions ++= Seq(
   "-encoding",
@@ -13,4 +13,10 @@ scalacOptions ++= Seq(
   "-Xfatal-warnings", // turn compiler warnings into errors
 )
 
-libraryDependencies += "org.typelevel" %% "cats-core" % "2.2.0"
+libraryDependencies ++= Seq(
+  "org.typelevel" %% "cats-core"     % "2.7.0",
+  "org.typelevel" %% "cats-effect"   % "3.3.11",
+  "io.circe"      %% "circe-core"    % "0.14.1",
+  "io.circe"      %% "circe-generic" % "0.14.1",
+  "io.circe"      %% "circe-parser"  % "0.14.1"
+)
