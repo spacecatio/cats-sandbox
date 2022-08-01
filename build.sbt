@@ -20,3 +20,5 @@ libraryDependencies ++= Seq(
   "io.circe"      %% "circe-generic" % "0.14.1",
   "io.circe"      %% "circe-parser"  % "0.14.1"
 )
+
+addCompilerPlugin("org.typelevel" % "kind-projector" % "0.13.2" cross CrossVersion.full)
