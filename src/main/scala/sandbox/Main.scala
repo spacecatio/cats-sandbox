@@ -1,5 +1,5 @@
 package sandbox
 
-object HelloWorld extends App {
+object Main extends App {
   println("Hello world!")
 }

@@ -46,6 +46,7 @@ bin/
 # Metals
 .metals
 .bloop
+.bsp
 
 # VSCode
 .vscode
