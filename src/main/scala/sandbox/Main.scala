@@ -1,4 +1,4 @@
 package sandbox
 
-object Main extends App:
+@main def main(): Unit =
   println("Hello world!")
