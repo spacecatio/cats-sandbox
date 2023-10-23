@@ -1,7 +1,7 @@
 name := "sandbox"
 version := "0.0.1-SNAPSHOT"
 
-scalaVersion := "2.13.8"
+scalaVersion := "2.13.12"
 
 scalacOptions ++= Seq(
   "-encoding",
@@ -13,10 +13,10 @@ scalacOptions ++= Seq(
   "-Xfatal-warnings", // turn compiler warnings into errors
 )
 
-val catsVersion = "2.8.0"
-val catsEffectVersion = "3.3.12"
-val circeVersion = "0.14.2"
-val http4sVersion = "0.23.14"
+val catsVersion = "2.10.0"
+val catsEffectVersion = "3.5.2"
+val circeVersion = "0.14.6"
+val http4sVersion = "0.23.23"
 
 libraryDependencies ++= Seq(
   "org.typelevel" %% "cats-core"           % catsVersion,
