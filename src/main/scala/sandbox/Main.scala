@@ -1,5 +1,9 @@
 package sandbox
 
-object Main extends App {
-  println("Hello world!")
+object Main {
+  def greeting(name: String): String =
+    println("Hello " + name + "!")
+  
+  def main(args: Array[String]): Unit =
+    println(greeting("world"))
 }
