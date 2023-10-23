@@ -1,4 +1,4 @@
-# Cats Sandbox
+# Scala Sandbox
 
 This repository contains an empty Scala/Cats project
 for use in [Spacecat](https://spacecat.io) training courses.
